@@ -33,6 +33,7 @@ busybox insmod rust_module_parameters_loadable_custom.ko \
     my_i32=345543 \
     my_str=🦀mod \
     my_usize=84 \
+    my_test=123 \
     my_array=1,2,3
 busybox  rmmod rust_module_parameters_loadable_default.ko
 busybox  rmmod rust_module_parameters_loadable_custom.ko
